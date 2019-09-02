@@ -29,3 +29,15 @@ Builder pattern solves the issue with large number of optional parameters and in
 
 [Builder Design Pattern in Java](https://www.journaldev.com/1425/builder-design-pattern-in-java)  
 
+
+### Advantages of Builder Design Pattern
+
+1. The parameters to the constructor are reduced and are provided in highly readable method calls.
+2. Builder design pattern also helps in minimizing the number of parameters in constructor and thus there is no need to pass in null for optional parameters to the constructor.
+3. Object is always instantiated in a complete state
+4. Immutable objects can be build without much complex logic in object building process.
+
+### Disadvantages of Builder Design Pattern
+
+1. The number of lines of code increase at least to double in builder pattern, but the effort pays off in terms of design flexibility and much more readable code.
+2. Requires creating a separate ConcreteBuilder for each different type of Product.
