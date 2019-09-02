@@ -1,3 +1,7 @@
+package pattern.factory;
+
+import shape.Shape;
+
 public class FactoryPatternDemo {
 
     public static void main(String[] args) {

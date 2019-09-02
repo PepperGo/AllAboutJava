@@ -1,3 +1,10 @@
+package pattern.factory;
+
+import shape.Circle;
+import shape.Rectangle;
+import shape.Shape;
+import shape.Square;
+
 public class ShapeFactory {
 
     public Shape getShape(String shapeType) {
